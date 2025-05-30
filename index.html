@@ -2,106 +2,54 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>اختبار بريد الجزائر</title>
+  <title>الدرس 4 - عناصر متقدمة</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      direction: rtl;
-      background-color: #f4f4f4;
+      background-color: #eef2f3;
+      text-align: center;
       padding: 20px;
     }
-    .container {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      max-width: 800px;
-      margin: auto;
-      box-shadow: 0 0 10px #ccc;
-    }
-    h1 {
-      text-align: center;
-      color: #006400;
-    }
-    .question {
-      margin-bottom: 15px;
-      padding: 10px;
-      background: #f9f9f9;
-      border-radius: 8px;
-    }
-    .question p {
-      margin: 0 0 10px;
-      font-weight: bold;
-    }
-    .result {
-      text-align: center;
-      font-size: 30px;
-      margin-top: 15px;
-      font-weight: bold;
-    }
-    .btn {
-      display: block;
-      margin: 20px auto;
-      padding: 10px 25px;
-      font-size: 18px;
-      background: #28a745;
-      color: Blue;
+
+    button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
       border: none;
       border-radius: 8px;
       cursor: pointer;
+    }
+
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin: 20px auto;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      text-align: right;
     }
   </style>
 </head>
 <body>
 
-<div class="container">
-  <h1>اختبار بريد الجزائر</h1>
+  <h1>💡 الدرس 4: القوائم والأزرار والصناديق</h1>
 
-  <form id="quizForm">
-    <div class="question">
-      <p>1. ما هي العملة الوطنية في الجزائر؟</p>
-      <label><input type="radio" name="q1" value="أ"> الدولار</label><br>
-      <label><input type="radio" name="q1" value="ب"> اليورو</label><br>
-      <label><input type="radio" name="q1" value="ج"> الدينار</label>
-    </div>
+  <h3>قائمة غير مرتبة:</h3>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
 
-    <div class="question">
-      <p>2. ما هو دور البنك المركزي؟</p>
-      <label><input type="radio" name="q2" value="أ"> جمع الضرائب</label><br>
-      <label><input type="radio" name="q2" value="ب"> طبع النقود</label><br>
-      <label><input type="radio" name="q2" value="ج"> تقديم القروض العقارية</label>
-    </div>
+  <h3>زر:</h3>
+  <button onclick="alert('أنت رائع!')">اضغط هنا</button>
 
-    <!-- أضف المزيد من الأسئلة هنا بنفس النمط -->
-
-    <button type="button" class="btn" onclick="showResult()">عرض النتيجة</button>
-  </form>
-
-  <div id="result" class="result"></div>
-</div>
-
-<script>
-  const answers = {
-    q1: "ج",
-    q2: "ب",
-    // أضف باقي الإجابات هنا
-  };
-
-  function showResult() {
-    let score = 0;
-    let total = Object.keys(answers).length;
-
-    for (let q in answers) {
-      const selected = document.querySelector(`input[name="${q}"]:checked`);
-      if (selected && selected.value === answers[q]) {
-        score++;
-      }
-    }
-
-    const result = document.getElementById("result");
-    result.innerHTML = `✔️ نتيجتك: ${score} / ${total} - ${score >= total / 2 ? "ناجح" : "راسب"}`;
-    result.style.color = score >= total / 2 ? "green" : "red";
-  }
-</script>
+  <h3>صندوق معلومات:</h3>
+  <div class="card">
+    <h2>معلومة اليوم</h2>
+    <p>يمكنك استخدام CSS لصنع صناديق جميلة مثل هذا بكل سهولة.</p>
+  </div>
 
 </body>
 </html>
