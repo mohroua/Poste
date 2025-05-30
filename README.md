@@ -6,34 +6,34 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #eef2f3;
-      text-align: center;
-      padding: 20px;
+      background-color: #bbbb;
+      text-align: right;
+      padding: 50px;
     }
 
     button {
-      background-color: #28a745;
+      background-color: #39ff14;
       color: white;
-      padding: 10px 20px;
+      padding: 30px 60px;
       border: none;
-      border-radius: 8px;
+      border-radius: 10px;
       cursor: pointer;
     }
 
     .card {
-      background-color: white;
+      background-color: green;
       padding: 20px;
       margin: 20px auto;
       width: 300px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       border-radius: 10px;
-      text-align: right;
+      text-align: centre;
     }
   </style>
 </head>
 <body>
 
-  <h1>💡 الدرس 4: القوائم والأزرار والصناديق</h1>
+  <h1>مرحبا بكم في هذا الموقع حريشة يونس 👋</h1>
 
   <h3>قائمة غير مرتبة:</h3>
   <ul>
@@ -43,7 +43,7 @@
   </ul>
 
   <h3>زر:</h3>
-  <button onclick="alert('أنت رائع!')">اضغط هنا</button>
+  <button onclick="alert='مرحبا بالجميع')">اضغط هنا</button>
 
   <h3>صندوق معلومات:</h3>
   <div class="card">
