@@ -34,8 +34,8 @@
     }
     .result {
       text-align: center;
-      font-size: 20px;
-      margin-top: 20px;
+      font-size: 30px;
+      margin-top: 15px;
       font-weight: bold;
     }
     .btn {
@@ -44,7 +44,7 @@
       padding: 10px 25px;
       font-size: 18px;
       background: #28a745;
-      color: white;
+      color: Blue;
       border: none;
       border-radius: 8px;
       cursor: pointer;
