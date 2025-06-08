@@ -6,7 +6,23 @@
 
 
 
+
+
+
+
+
+
+
+
 <html lang="ar" dir="rtl">
+
+
+
+
+
+
+
+
 
 
 
@@ -22,7 +38,19 @@
 
 
 
+
+
+
+
+
+
+
+
   <meta charset="UTF-8">
+
+
+
+
 
 
 
@@ -30,7 +58,15 @@
 
 
 
+
+
+
+
   <title>مركز الامتحان - بريد الجزائر</title>
+
+
+
+
 
 
 
@@ -38,7 +74,19 @@
 
 
 
+
+
+
+
   <title>مركز الامتحان - بريد الجزائر</title>
+
+
+
+
+
+
+
+
 
 
 
@@ -54,7 +102,19 @@
 
 
 
+
+
+
+
+
+
+
+
     body {
+
+
+
+
 
 
 
@@ -62,7 +122,15 @@
 
 
 
+
+
+
+
   background-color: #f9f9f9;
+
+
+
+
 
 
 
@@ -70,11 +138,27 @@
 
 
 
+
+
+
+
   padding: 0;
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -86,7 +170,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -94,7 +186,15 @@
 
 
 
+
+
+
+
   align-items: center;
+
+
+
+
 
 
 
@@ -102,7 +202,15 @@
 
 
 
+
+
+
+
   background-color: #fff;
+
+
+
+
 
 
 
@@ -110,7 +218,19 @@
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -122,7 +242,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -130,11 +258,27 @@
 
 
 
+
+
+
+
   gap: 5px; /* تقليل المسافة بين الشعار والنص */
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -146,7 +290,15 @@
 
 
 
+
+
+
+
   font-size: 18px; /* تصغير الخط */
+
+
+
+
 
 
 
@@ -154,7 +306,19 @@
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -166,11 +330,27 @@
 
 
 
+
+
+
+
   height: 60px; /* تصغير حجم الشعار */
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -182,7 +362,15 @@
 
 
 
+
+
+
+
   text-align: center;
+
+
+
+
 
 
 
@@ -190,7 +378,19 @@
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -202,7 +402,15 @@
 
 
 
+
+
+
+
   background-color: #fff;
+
+
+
+
 
 
 
@@ -210,7 +418,15 @@
 
 
 
+
+
+
+
   border-radius: 10px;
+
+
+
+
 
 
 
@@ -218,7 +434,15 @@
 
 
 
+
+
+
+
   display: inline-block;
+
+
+
+
 
 
 
@@ -226,7 +450,15 @@
 
 
 
+
+
+
+
   width: 70%;
+
+
+
+
 
 
 
@@ -234,7 +466,15 @@
 
 
 
+
+
+
+
   min-width: 300px;
+
+
+
+
 
 
 
@@ -242,7 +482,19 @@
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -254,7 +506,15 @@
 
 
 
+
+
+
+
   display: flex;
+
+
+
+
 
 
 
@@ -262,7 +522,15 @@
 
 
 
+
+
+
+
   align-items: center;
+
+
+
+
 
 
 
@@ -270,7 +538,19 @@
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -282,7 +562,15 @@
 
 
 
+
+
+
+
   background-color: #f0f0f0;
+
+
+
+
 
 
 
@@ -290,7 +578,15 @@
 
 
 
+
+
+
+
   padding: 3px 8px; /* تقليل الحجم الداخلي */
+
+
+
+
 
 
 
@@ -298,11 +594,27 @@
 
 
 
+
+
+
+
   font-size: 14px;
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -314,7 +626,15 @@
 
 
 
+
+
+
+
   background-color: orange;
+
+
+
+
 
 
 
@@ -322,7 +642,19 @@
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -334,7 +666,15 @@ button {
 
 
 
+
+
+
+
   padding: 8px 16px;
+
+
+
+
 
 
 
@@ -342,7 +682,15 @@ button {
 
 
 
+
+
+
+
   font-size: 16px;
+
+
+
+
 
 
 
@@ -350,7 +698,15 @@ button {
 
 
 
+
+
+
+
   border-radius: 8px;
+
+
+
+
 
 
 
@@ -358,11 +714,27 @@ button {
 
 
 
+
+
+
+
   cursor: pointer;
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -374,7 +746,15 @@ button {
 
 
 
+
+
+
+
   display: none;
+
+
+
+
 
 
 
@@ -382,7 +762,19 @@ button {
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -394,7 +786,15 @@ button {
 
 
 
+
+
+
+
   font-size: 28px; /* تقليل حجم السؤال */
+
+
+
+
 
 
 
@@ -402,11 +802,27 @@ button {
 
 
 
+
+
+
+
   margin-bottom: 10px;
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -418,7 +834,15 @@ label {
 
 
 
+
+
+
+
   display: block;
+
+
+
+
 
 
 
@@ -426,11 +850,27 @@ label {
 
 
 
+
+
+
+
   font-size: 15px;
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -442,11 +882,27 @@ label {
 
 
 
+
+
+
+
   display: none;
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -458,7 +914,15 @@ label {
 
 
 
+
+
+
+
   font-weight: bold;
+
+
+
+
 
 
 
@@ -466,11 +930,27 @@ label {
 
 
 
+
+
+
+
   margin: 5px 0; /* تقليل المسافة حول المؤقت */
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -482,7 +962,15 @@ label {
 
 
 
+
+
+
+
   margin-top: 10px;
+
+
+
+
 
 
 
@@ -494,7 +982,19 @@ label {
 
 
 
+
+
+
+
+
+
+
+
   .correct {
+
+
+
+
 
 
 
@@ -502,11 +1002,23 @@ label {
 
 
 
+
+
+
+
     font-weight: bold;
 
 
 
+
+
+
+
   }
+
+
+
+
 
 
 
@@ -514,7 +1026,15 @@ label {
 
 
 
+
+
+
+
     color: red;
+
+
+
+
 
 
 
@@ -522,7 +1042,15 @@ label {
 
 
 
+
+
+
+
   }
+
+
+
+
 
 
 
@@ -530,11 +1058,27 @@ label {
 
 
 
+
+
+
+
     margin-bottom: 20px;
 
 
 
+
+
+
+
   }
+
+
+
+
+
+
+
+
 
 
 
@@ -550,7 +1094,23 @@ label {
 
 
 
+
+
+
+
+
+
+
+
 </head>
+
+
+
+
+
+
+
+
 
 
 
@@ -566,7 +1126,19 @@ label {
 
 
 
+
+
+
+
+
+
+
+
   <div class="header">
+
+
+
+
 
 
 
@@ -574,7 +1146,15 @@ label {
 
 
 
+
+
+
+
    
+
+
+
+
 
 
 
@@ -582,11 +1162,23 @@ label {
 
 
 
+
+
+
+
      <span>مركز الامتحان</span>
 
 
 
+
+
+
+
   </div>
+
+
+
+
 
 
 
@@ -602,7 +1194,23 @@ label {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="content" id="welcome-section">
+
+
+
+
 
 
 
@@ -610,7 +1218,15 @@ label {
 
 
 
+
+
+
+
     <div class="box">
+
+
+
+
 
 
 
@@ -618,7 +1234,15 @@ label {
 
 
 
+
+
+
+
       <div class="status">
+
+
+
+
 
 
 
@@ -626,7 +1250,15 @@ label {
 
 
 
+
+
+
+
         <span class="orange">لم يبدأ بعد</span>
+
+
+
+
 
 
 
@@ -634,7 +1266,15 @@ label {
 
 
 
+
+
+
+
       <p>امتحان ساعي بريد</p>
+
+
+
+
 
 
 
@@ -642,11 +1282,27 @@ label {
 
 
 
+
+
+
+
     </div>
 
 
 
+
+
+
+
   </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -658,7 +1314,15 @@ label {
 
 
 
+
+
+
+
     <div class="question" id="question-text"></div>
+
+
+
+
 
 
 
@@ -666,7 +1330,15 @@ label {
 
 
 
+
+
+
+
     <div id="choices"></div>
+
+
+
+
 
 
 
@@ -674,7 +1346,15 @@ label {
 
 
 
+
+
+
+
       <button id="prevBtn" onclick="prevQuestion()">السابق</button>
+
+
+
+
 
 
 
@@ -682,7 +1362,15 @@ label {
 
 
 
+
+
+
+
     </div>
+
+
+
+
 
 
 
@@ -690,7 +1378,15 @@ label {
 
 
 
+
+
+
+
   </div>
+
+
+
+
 
 
 
@@ -698,11 +1394,31 @@ label {
 
 
 
+
+
+
+
 <!-- هذا هو العنصر الذي تحتاجه لتصحيح الأسئلة -->
 
 
 
+
+
+
+
 <div id="correction-section" class="hidden"></div>
+
+
+
+
+
+<div id="excluded-message" style="display:none; color:red; font-size:24px; font-weight:bold;">تم إقصاؤك من الامتحان!</div>
+
+<button id="retry-button" onclick="retryExam()" style="display:none; margin-top: 20px;">إعادة المحاولة</button>
+
+  
+
+
 
 
 
@@ -714,7 +1430,15 @@ label {
 
 
 
+
+
+
+
     // التقاط الاسم من الرابط
+
+
+
+
 
 
 
@@ -722,7 +1446,15 @@ label {
 
 
 
+
+
+
+
       const params = new URLSearchParams(window.location.search);
+
+
+
+
 
 
 
@@ -730,7 +1462,19 @@ label {
 
 
 
+
+
+
+
     }
+
+
+
+
+
+
+
+
 
 
 
@@ -742,7 +1486,15 @@ label {
 
 
 
+
+
+
+
     document.addEventListener("DOMContentLoaded", function () {
+
+
+
+
 
 
 
@@ -750,7 +1502,15 @@ label {
 
 
 
+
+
+
+
       document.getElementById("username").textContent = `مرحبا ${name.replace(/\./g, ' ')}`;
+
+
+
+
 
 
 
@@ -762,7 +1522,19 @@ label {
 
 
 
+
+
+
+
+
+
+
+
     // بدء الامتحان
+
+
+
+
 
 
 
@@ -770,7 +1542,15 @@ label {
 
 
 
+
+
+
+
       document.getElementById("welcome-section").style.display = "none";
+
+
+
+
 
 
 
@@ -778,11 +1558,27 @@ label {
 
 
 
+
+
+
+
       showQuestion();
 
 
 
+
+
+
+
     }
+
+
+
+
+
+
+
+
 
 
 
@@ -798,11 +1594,27 @@ label {
 
 
 
+
+
+
+
+
+
+
+
     function addQuestion(q, options, correct) {
 
 
 
+
+
+
+
       questions.push({ q, choices: options, correct });
+
+
+
+
 
 
 
@@ -814,7 +1626,19 @@ label {
 
 
 
+
+
+
+
+
+
+
+
 addQuestion("ما هو الفرق بين البريد الموصى عليه والبريد العادي؟", ["البريد العادي يصل أسرع", "الموصى عليه يضمن التتبع والإشعار بالاستلام", "البريد العادي يُرسل دوليًا فقط", "البريد الموصى عليه لا يتطلب توقيعًا"], 1);
+
+
+
+
 
 
 
@@ -822,7 +1646,15 @@ addQuestion("ما هو الجهاز المستخدم لتسجيل التسليم
 
 
 
+
+
+
+
 addQuestion("ما الإجراء الذي يجب على الساعي اتباعه عند رفض الزبون استلام البريد؟", ["تسليم الطرد لجار الزبون", "إعادة الطرد إلى المكتب وتسجيل السبب", "تدمير الطرد", "فتح الطرد"], 1);
+
+
+
+
 
 
 
@@ -830,7 +1662,15 @@ addQuestion("في حال وجود خطأ في العنوان، ماذا يجب �
 
 
 
+
+
+
+
 addQuestion("ما هو EMS؟", ["نوع من الطوابع", "بريد سريع داخلي ودولي", "تحويل مالي", "تطبيق هاتفي"], 1);
+
+
+
+
 
 
 
@@ -838,7 +1678,15 @@ addQuestion("كيف يتأكد ساعي البريد من هوية الشخص ا
 
 
 
+
+
+
+
 addQuestion("ما معنى RIP؟", ["حساب توفير", "رقم التعريف البريدي", "رقم الشيك البريدي", "رقم التحويل الدولي"], 1);
+
+
+
+
 
 
 
@@ -846,7 +1694,15 @@ addQuestion("ما هي خدمة Mandat Express؟", ["إرسال بريد", "إر
 
 
 
+
+
+
+
 addQuestion("كيف يتم تتبع الطرود البريدية؟", ["عن طريق الإنترنت باستخدام رقم التتبع", "بالسؤال في المكتب", "عن طريق الهاتف فقط", "لا يمكن تتبعها"], 0);
+
+
+
+
 
 
 
@@ -854,7 +1710,15 @@ addQuestion("من الجهة التي تشرف على بريد الجزائر؟"
 
 
 
+
+
+
+
 addQuestion("ما هو التصرف الصحيح إذا وجد الساعي طردًا مشبوهًا؟", ["يفتحه", "يتجاهله", "يبلغ الإدارة ويوقف التوزيع", "يسلمه فورًا"], 2);
+
+
+
+
 
 
 
@@ -862,7 +1726,15 @@ addQuestion("أي من المهام التالية ليست من اختصاص س
 
 
 
+
+
+
+
 addQuestion("كيف يتم حساب تكلفة إرسال طرد؟", ["حسب الوزن فقط", "حسب الوجهة فقط", "حسب الوزن، الوجهة ونوع الخدمة", "ثابتة"], 2);
+
+
+
+
 
 
 
@@ -870,7 +1742,15 @@ addQuestion("ما هو PIN PAD؟", ["جهاز إدخال رمز سري وتوق�
 
 
 
+
+
+
+
 addQuestion("كم يبلغ الحد الأقصى لوزن الطرد في بريد الجزائر؟", ["5 كغ", "10 كغ", "20 كغ", "30 كغ"], 3);
+
+
+
+
 
 
 
@@ -878,7 +1758,15 @@ addQuestion("كيف يثبت الزبون استلام الطرد؟", ["توقي
 
 
 
+
+
+
+
 addQuestion("ما هو الإجراء عند ضياع طرد مسجل؟", ["لا شيء", "يُفتح تحقيق", "يُرسل بريد آخر", "يُخصم من راتب الساعي"], 1);
+
+
+
+
 
 
 
@@ -886,7 +1774,15 @@ addQuestion("هل يمكن لساعي البريد تسليم البريد لش�
 
 
 
+
+
+
+
 addQuestion("ما الفرق بين الطابع العادي والطابع المستعجل؟", ["الطابع العادي أغلى", "الطابع المستعجل يسرّع التوصيل", "لا فرق", "المستعجل يُستخدم دوليًا فقط"], 1);
+
+
+
+
 
 
 
@@ -894,7 +1790,15 @@ addQuestion("ما معنى عبارة 'إشعار بالاستلام'؟", ["وث
 
 
 
+
+
+
+
 addQuestion("في حال حدوث حادث أثناء التوصيل، ماذا يفعل الساعي؟", ["يواصل عمله", "يعود للبيت", "يُبلغ الإدارة فورًا ويملأ تقريرًا", "يتصل بالزبون"], 2);
+
+
+
+
 
 
 
@@ -902,7 +1806,15 @@ addQuestion("كيف يضمن الساعي خصوصية الزبائن؟", ["بح
 
 
 
+
+
+
+
 addQuestion("ما هي عقوبة التلاعب بالبريد؟", ["تحذير شفوي", "خصم في الراتب", "عقوبة تأديبية وقانونية", "نقل إلى مكتب آخر"], 2);
+
+
+
+
 
 
 
@@ -910,7 +1822,15 @@ addQuestion("من المسؤول عن تنظيم مهام ساعي البريد�
 
 
 
+
+
+
+
 addQuestion("هل يمكن لساعي البريد استخدام هاتفه الشخصي أثناء العمل؟", ["نعم", "لا", "فقط في حالات الضرورة", "حسب رغبة الزبائن"], 2);
+
+
+
+
 
 
 
@@ -918,7 +1838,15 @@ addQuestion("متى يُعتبر الساعي قد أتم مهامه اليوم�
 
 
 
+
+
+
+
 addQuestion("أي من القيم التالية يجب أن يتحلى بها ساعي البريد؟", ["السرية", "الأمانة", "احترام المواعيد", "جميع ما سبق"], 3);
+
+
+
+
 
 
 
@@ -926,7 +1854,15 @@ addQuestion("ما الفرق بين خدمة Mandat Ordinaire وMandat Express؟
 
 
 
+
+
+
+
 addQuestion("ما الذي يثبت إرسال البريد؟", ["توقيع الزبون", "بطاقة الهوية", "وصل الإرسال", "لا شيء"], 2);
+
+
+
+
 
 
 
@@ -934,7 +1870,15 @@ addQuestion("هل يمكن للساعي تسليم البريد أيام الع�
 
 
 
+
+
+
+
 addQuestion("ما هو البريد غير القابل للتتبع؟", ["البريد العادي", "المضمون", "السريع", "المسجل"], 0);
+
+
+
+
 
 
 
@@ -942,7 +1886,15 @@ addQuestion("أي من هذه التصرفات يعتبر إخلالًا بال�
 
 
 
+
+
+
+
 addQuestion("ماذا يعني إذا كان الطرد عليه عبارة 'قابل للكسر'؟", ["لا يُرسل", "يُعطى للساعي المتمرس فقط", "يُعامل بحذر خاص", "يُفتح قبل الإرسال"], 2);
+
+
+
+
 
 
 
@@ -950,9 +1902,25 @@ addQuestion("في حال إرسال الطرد إلى عنوان خاطئ، ما
 
 
 
+
+
+
+
 addQuestion("ما هو التصرف في حال استلام ظرف فارغ من الزبون؟", ["تجاهله", "فتحه", "تسجيل ملاحظة في المحضر", "حرقه"], 2);
 
+
+
     
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -966,11 +1934,23 @@ let currentQuestion = 0;
 
 
 
+
+
+
+
 let answers = Array(questions.length).fill(null);
 
 
 
+
+
+
+
 let timers = Array(questions.length).fill(120); // 120 ثانية
+
+
+
+
 
 
 
@@ -982,7 +1962,19 @@ let timerInterval;
 
 
 
+
+
+
+
+
+
+
+
 function showQuestion() {
+
+
+
+
 
 
 
@@ -994,7 +1986,19 @@ function showQuestion() {
 
 
 
+
+
+
+
+
+
+
+
   const q = questions[currentQuestion];
+
+
+
+
 
 
 
@@ -1002,7 +2006,15 @@ function showQuestion() {
 
 
 
+
+
+
+
   const choicesDiv = document.getElementById("choices");
+
+
+
+
 
 
 
@@ -1014,7 +2026,19 @@ function showQuestion() {
 
 
 
+
+
+
+
+
+
+
+
   q.choices.forEach((choice, index) => {
+
+
+
+
 
 
 
@@ -1022,7 +2046,15 @@ function showQuestion() {
 
 
 
+
+
+
+
     const input = document.createElement("input");
+
+
+
+
 
 
 
@@ -1030,7 +2062,15 @@ function showQuestion() {
 
 
 
+
+
+
+
     input.name = "choice";
+
+
+
+
 
 
 
@@ -1038,7 +2078,15 @@ function showQuestion() {
 
 
 
+
+
+
+
     input.disabled = (timers[currentQuestion] <= 0 || answers[currentQuestion] !== null);
+
+
+
+
 
 
 
@@ -1050,7 +2098,19 @@ function showQuestion() {
 
 
 
+
+
+
+
+
+
+
+
     input.addEventListener("change", () => {
+
+
+
+
 
 
 
@@ -1058,7 +2118,15 @@ function showQuestion() {
 
 
 
+
+
+
+
         answers[currentQuestion] = index;
+
+
+
+
 
 
 
@@ -1066,7 +2134,15 @@ function showQuestion() {
 
 
 
+
+
+
+
       }
+
+
+
+
 
 
 
@@ -1078,7 +2154,19 @@ function showQuestion() {
 
 
 
+
+
+
+
+
+
+
+
     label.appendChild(input);
+
+
+
+
 
 
 
@@ -1086,11 +2174,27 @@ function showQuestion() {
 
 
 
+
+
+
+
     choicesDiv.appendChild(label);
 
 
 
+
+
+
+
   });
+
+
+
+
+
+
+
+
 
 
 
@@ -1106,11 +2210,31 @@ function showQuestion() {
 
 
 
+
+
+
+
+
+
+
+
   startTimer();
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -1120,17 +2244,33 @@ function showQuestion() {
 
 function startTimer() {
 
+
+
   const timerElement = document.getElementById("timer");
+
+
+
+
 
 
 
   if (timers[currentQuestion] <= 0) {
 
+
+
     timerElement.textContent = "انتهى الوقت لهذا السؤال.";
+
+
 
     return;
 
+
+
   }
+
+
+
+
 
 
 
@@ -1138,59 +2278,119 @@ function startTimer() {
 
 
 
+
+
+
+
   timerInterval = setInterval(() => {
 
+
+
     timers[currentQuestion]--;
+
+
 
     updateTimerText();
 
 
 
+
+
+
+
     if (timers[currentQuestion] <= 0) {
+
+
 
       clearInterval(timerInterval);
 
+
+
       timerElement.textContent = "انتهى الوقت لهذا السؤال.";
+
+
 
       disableChoices();
 
+
+
       setTimeout(nextQuestion, 1000);
+
+
 
     }
 
+
+
   }, 1000);
+
+
 
 }
 
 
 
+
+
+
+
 // دالة جديدة لتحويل الثواني إلى دقائق وثوانٍ
+
+
 
 function updateTimerText() {
 
+
+
   const timerElement = document.getElementById("timer");
+
+
 
   const seconds = timers[currentQuestion];
 
+
+
   const minutes = Math.floor(seconds / 60);
+
+
 
   const remainingSeconds = seconds % 60;
 
 
 
+
+
+
+
   // نضيف صفر أمام الأرقام الأقل من 10 لجعلها ثنائية الخانة
 
+
+
   const minStr = minutes.toString().padStart(2, '0');
+
+
 
   const secStr = remainingSeconds.toString().padStart(2, '0');
 
 
 
+
+
+
+
   timerElement.textContent = `الوقت المتبقي: ${minStr}:${secStr}`;
+
+
 
     }
 
+
+
     
+
+
+
+
 
 
 
@@ -1198,7 +2398,15 @@ function disableChoices() {
 
 
 
+
+
+
+
   const inputs = document.querySelectorAll("input[name='choice']");
+
+
+
+
 
 
 
@@ -1206,7 +2414,19 @@ function disableChoices() {
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -1218,7 +2438,15 @@ function nextQuestion() {
 
 
 
+
+
+
+
   if (currentQuestion < questions.length - 1) {
+
+
+
+
 
 
 
@@ -1226,7 +2454,15 @@ function nextQuestion() {
 
 
 
+
+
+
+
     showQuestion();
+
+
+
+
 
 
 
@@ -1234,7 +2470,15 @@ function nextQuestion() {
 
 
 
+
+
+
+
     finishQuiz();
+
+
+
+
 
 
 
@@ -1242,7 +2486,19 @@ function nextQuestion() {
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -1254,7 +2510,15 @@ function prevQuestion() {
 
 
 
+
+
+
+
   if (currentQuestion > 0) { // فقط تحقق من أن هناك سؤال سابق
+
+
+
+
 
 
 
@@ -1262,7 +2526,15 @@ function prevQuestion() {
 
 
 
+
+
+
+
     showQuestion();
+
+
+
+
 
 
 
@@ -1270,7 +2542,23 @@ function prevQuestion() {
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1286,7 +2574,15 @@ function finishQuiz() {
 
 
 
+
+
+
+
   clearInterval(timerInterval);
+
+
+
+
 
 
 
@@ -1294,11 +2590,23 @@ function finishQuiz() {
 
 
 
+
+
+
+
   document.getElementById("choices").classList.add("hidden");
 
 
 
+
+
+
+
   document.getElementById("timer").classList.add("hidden");
+
+
+
+
 
 
 
@@ -1310,7 +2618,19 @@ function finishQuiz() {
 
 
 
+
+
+
+
+
+
+
+
   let correct = 0;
+
+
+
+
 
 
 
@@ -1322,7 +2642,19 @@ function finishQuiz() {
 
 
 
+
+
+
+
+
+
+
+
   questions.forEach((q, i) => {
+
+
+
+
 
 
 
@@ -1330,7 +2662,15 @@ function finishQuiz() {
 
 
 
+
+
+
+
       if (answers[i] === q.correct) {
+
+
+
+
 
 
 
@@ -1338,7 +2678,15 @@ function finishQuiz() {
 
 
 
+
+
+
+
       } else {
+
+
+
+
 
 
 
@@ -1346,7 +2694,15 @@ function finishQuiz() {
 
 
 
+
+
+
+
       }
+
+
+
+
 
 
 
@@ -1354,7 +2710,19 @@ function finishQuiz() {
 
 
 
+
+
+
+
   });
+
+
+
+
+
+
+
+
 
 
 
@@ -1366,7 +2734,19 @@ function finishQuiz() {
 
 
 
+
+
+
+
   if (finalScore < 0) finalScore = 0;
+
+
+
+
+
+
+
+
 
 
 
@@ -1378,7 +2758,19 @@ function finishQuiz() {
 
 
 
+
+
+
+
   resultDiv.classList.remove("hidden");
+
+
+
+
+
+
+
+
 
 
 
@@ -1390,7 +2782,15 @@ function finishQuiz() {
 
 
 
+
+
+
+
   if (finalScore >= Math.ceil(questions.length / 2)) {
+
+
+
+
 
 
 
@@ -1398,11 +2798,23 @@ function finishQuiz() {
 
 
 
+
+
+
+
   } else {
 
 
 
+
+
+
+
     message = `<span style=\"color: red;\">❌ للأسف، حظ موفق في المرة القادمة</span>`;
+
+
+
+
 
 
 
@@ -1414,7 +2826,19 @@ function finishQuiz() {
 
 
 
+
+
+
+
+
+
+
+
   resultDiv.innerHTML = `
+
+
+
+
 
 
 
@@ -1422,7 +2846,15 @@ function finishQuiz() {
 
 
 
+
+
+
+
     <p>عدد الإجابات الصحيحة: ${correct}</p>
+
+
+
+
 
 
 
@@ -1430,7 +2862,15 @@ function finishQuiz() {
 
 
 
+
+
+
+
     <p><strong>علامتك النهائية: ${finalScore} من ${questions.length}</strong></p>
+
+
+
+
 
 
 
@@ -1438,7 +2878,15 @@ function finishQuiz() {
 
 
 
+
+
+
+
     <footer style="
+
+
+
+
 
 
 
@@ -1446,7 +2894,15 @@ function finishQuiz() {
 
 
 
+
+
+
+
   bottom: 0;
+
+
+
+
 
 
 
@@ -1454,7 +2910,15 @@ function finishQuiz() {
 
 
 
+
+
+
+
   text-align: center;
+
+
+
+
 
 
 
@@ -1462,7 +2926,15 @@ function finishQuiz() {
 
 
 
+
+
+
+
   color: #555;
+
+
+
+
 
 
 
@@ -1470,7 +2942,15 @@ function finishQuiz() {
 
 
 
+
+
+
+
   padding: 5px 0;
+
+
+
+
 
 
 
@@ -1478,11 +2958,23 @@ function finishQuiz() {
 
 
 
+
+
+
+
 ">
 
 
 
+
+
+
+
 Created by: Haricha Younes 
+
+
+
+
 
 
 
@@ -1494,7 +2986,19 @@ Created by: Haricha Younes
 
 
 
+
+
+
+
+
+
+
+
     <button onclick=\"showCorrectionPage()\">تصحيح الاختبار</button>
+
+
+
+
 
 
 
@@ -1502,7 +3006,19 @@ Created by: Haricha Younes
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -1514,11 +3030,23 @@ function showCorrectionPage() {
 
 
 
+
+
+
+
   document.getElementById("result").classList.add("hidden");
 
 
 
+
+
+
+
   const correctionSection = document.getElementById("correction-section");
+
+
+
+
 
 
 
@@ -1530,11 +3058,27 @@ function showCorrectionPage() {
 
 
 
+
+
+
+
+
+
+
+
   questions.forEach((q, index) => {
 
 
 
+
+
+
+
     const userAnswer = answers[index];
+
+
+
+
 
 
 
@@ -1546,7 +3090,19 @@ function showCorrectionPage() {
 
 
 
+
+
+
+
+
+
+
+
     const div = document.createElement("div");
+
+
+
+
 
 
 
@@ -1554,11 +3110,23 @@ function showCorrectionPage() {
 
 
 
+
+
+
+
     div.style.marginBottom = "10px";
 
 
 
+
+
+
+
     div.style.borderRadius = "10px";
+
+
+
+
 
 
 
@@ -1570,7 +3138,19 @@ function showCorrectionPage() {
 
 
 
+
+
+
+
+
+
+
+
     div.innerHTML = `
+
+
+
+
 
 
 
@@ -1578,11 +3158,23 @@ function showCorrectionPage() {
 
 
 
+
+
+
+
       <p>✔️ الإجابة الصحيحة: ${q.choices[correctAnswer]}</p>
 
 
 
+
+
+
+
       <p>📝 إجابتك: ${userAnswer !== null ? q.choices[userAnswer] : "لم يجب"}</p>
+
+
+
+
 
 
 
@@ -1594,7 +3186,19 @@ function showCorrectionPage() {
 
 
 
+
+
+
+
+
+
+
+
     correctionSection.appendChild(div);
+
+
+
+
 
 
 
@@ -1606,7 +3210,19 @@ function showCorrectionPage() {
 
 
 
+
+
+
+
+
+
+
+
   correctionSection.classList.remove("hidden");
+
+
+
+
 
 
 
@@ -1614,13 +3230,51 @@ function showCorrectionPage() {
 
 
 
+
+
+
+
 <!-- باقي محتوى صفحة التصحيح -->
 
+  
+
+// التحقق إذا تم الإقصاء مسبقاً
+
+window.addEventListener("DOMContentLoaded", function () {
+
+  if (localStorage.getItem("excluded") === "true") {
+
+    document.getElementById("exam-section").style.display = "none";
+
+    document.getElementById("excluded-message").style.display = "block";
+
+    document.getElementById("retry-button").style.display = "inline-block";
+
+  }
+
+});
 
 
 
+// عند محاولة الخروج أو التحديث يتم اعتباره مقصي
+
+window.addEventListener("beforeunload", function () {
+
+  localStorage.setItem("excluded", "true");
+
+});
 
 
+
+// عند الضغط على إعادة المحاولة
+
+function retryExam() {
+
+  localStorage.removeItem("excluded");
+
+  location.reload();
+
+}
 
 
 
@@ -1630,11 +3284,23 @@ function showCorrectionPage() {
 
 
 
+
+
+
+
 </body>
 
 
 
+
+
+
+
 </html>
+
+
+
+
 
 
 
