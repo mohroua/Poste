@@ -1615,15 +1615,26 @@ function showCorrectionPage() {
 
 
 <!-- باقي محتوى صفحة التصحيح -->
+  
+// التحقق إذا تم الإقصاء مسبقاً
+window.addEventListener("DOMContentLoaded", function () {
+  if (localStorage.getItem("excluded") === "true") {
+    document.getElementById("exam-section").style.display = "none";
+    document.getElementById("excluded-message").style.display = "block";
+    document.getElementById("retry-button").style.display = "inline-block";
+  }
+});
 
+// عند محاولة الخروج أو التحديث يتم اعتباره مقصي
+window.addEventListener("beforeunload", function () {
+  localStorage.setItem("excluded", "true");
+});
 
-
-
-
-
-
-
-
+// عند الضغط على إعادة المحاولة
+function retryExam() {
+  localStorage.removeItem("excluded");
+  location.reload();
+}
 
 
 </script>
