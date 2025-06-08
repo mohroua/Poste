@@ -271,7 +271,7 @@
 
         // عرض الاسم
         const name = getNameFromURL();
-        document.getElementById("username").textContent = `مرحبا ${name.replace(/\./g, ' ')}`;
+        
 
         // بدء الامتحان (تم جعلها دالة عامة ليمكن استدعاؤها من HTML)
         window.startExam = function() {
@@ -534,6 +534,7 @@
         };
     });
 
+document.getElementById("username").textContent = `مرحبا ${name.replace(/\./g, ' ')}`;
   </script>
 </body>
 </html>
