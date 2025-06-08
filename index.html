@@ -271,7 +271,7 @@
 
         // عرض الاسم
         const name = getNameFromURL();
-        document.getElementById("username").textContent = `مرحبا ${name.replace(/\./g, ' ')}`;
+        
 
         // بدء الامتحان (تم جعلها دالة عامة ليمكن استدعاؤها من HTML)
         window.startExam = function() {
@@ -450,4 +450,91 @@
             examSection.classList.add("hidden"); // إخفاء قسم الامتحان
             document.getElementById("question-text").classList.add("hidden");
             document.getElementById("choices").classList.add("hidden");
-            document.getElementById("timer").cla
+            document.getElementById("timer").classList.add("hidden");
+            document.getElementById("nav-buttons").classList.add("hidden");
+
+            let correct = 0;
+            let wrong = 0;
+
+            questions.forEach((q, i) => {
+                // التحقق مما إذا تم الإجابة على السؤال والوقت لم ينتهِ
+                if (answers[i] !== null && timers[i] >= 0) {
+                    if (answers[i] === q.correct) {
+                        correct++;
+                    } else {
+                        wrong++;
+                    }
+                } else if (answers[i] === null && timers[i] < 0) {
+                    // لم يتم الإجابة على السؤال وانتهى الوقت، يمكن اعتبارها خاطئة أو غير مجابة حسب منطقك
+                }
+            });
+
+            let finalScore = correct - wrong;
+            if (finalScore < 0) finalScore = 0; // لا يمكن أن تكون النتيجة سلبية
+
+            const resultDiv = document.getElementById("result");
+            resultDiv.classList.remove("hidden");
+
+            let message = "";
+            if (finalScore >= Math.ceil(questions.length / 2)) {
+                message = `<span style="color: green;">✔️ مبروك! لقد نجحت</span>`;
+            } else {
+                message = `<span style="color: red;">❌ للأسف، حظ موفق في المرة القادمة</span>`;
+            }
+
+            resultDiv.innerHTML = `
+                <h2>انتهى الاختبار</h2>
+                <p>عدد الإجابات الصحيحة: ${correct}</p>
+                <p>عدد الإجابات الخاطئة: ${wrong}</p>
+                <p><strong>علامتك النهائية: ${finalScore} من ${questions.length}</strong></p>
+                <p>${message}</p>
+                <footer style="
+                    position: fixed;
+                    bottom: 0;
+                    width: 85%;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #555;
+                    background-color: transparent;
+                    padding: 5px 0;
+                    direction: rtl;
+                ">
+                    Created by: Haricha Younes
+                </footer>
+                <button onclick="showCorrectionPage()">تصحيح الاختبار</button>
+            `;
+        }
+
+        // جعل الدالة عامة ليمكن استدعاؤها من HTML
+        window.showCorrectionPage = function() {
+            document.getElementById("result").classList.add("hidden");
+            const correctionSection = document.getElementById("correction-section");
+            correctionSection.innerHTML = "<h2>تصحيح الاختبار:</h2>";
+
+            questions.forEach((q, index) => {
+                const userAnswer = answers[index];
+                const correctAnswer = q.correct;
+
+                const div = document.createElement("div");
+                div.style.padding = "10px";
+                div.style.marginBottom = "10px";
+                div.style.borderRadius = "10px";
+                div.style.backgroundColor = userAnswer === correctAnswer ? "#d4edda" : "#f8d7da"; // أخضر للفصل، أحمر للخطأ
+
+                div.innerHTML = `
+                    <p><strong>سؤال ${index + 1}:</strong> ${q.q}</p>
+                    <p>✔️ الإجابة الصحيحة: ${q.choices[correctAnswer]}</p>
+                    <p>📝 إجابتك: ${userAnswer !== null ? q.choices[userAnswer] : "لم يجب"}</p>
+                `;
+
+                correctionSection.appendChild(div);
+            });
+
+            correctionSection.classList.remove("hidden");
+        };
+    });
+
+document.getElementById("username").textContent = `مرحبا ${name.replace(/\./g, ' ')}`;
+  </script>
+</body>
+</html>
