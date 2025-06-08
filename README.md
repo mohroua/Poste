@@ -208,8 +208,6 @@
     document.addEventListener("DOMContentLoaded", function () {
         const welcomeSection = document.getElementById("welcome-section");
         const examSection = document.getElementById("exam-section");
-        // لم نعد نحتاج إلى الحصول على disqualificationContainer و retryButton من HTML مباشرة
-        // لأننا سنقوم بإنشائها ديناميكيًا بناءً على الوضع.
 
         // دالة لعرض رسالة الإقصاء بناءً على الوضع
         function showDisqualificationMessage() {
@@ -258,9 +256,7 @@
             if (examSection.style.display === "block" && document.getElementById("result").classList.contains("hidden")) {
                  localStorage.setItem("disqualified", "true");
             }
-            // لا يمكن تخصيص الرسالة في معظم المتصفحات الحديثة لأسباب أمنية.
-            event.preventDefault(); // مطلوب لبعض المتصفحات
-            event.returnValue = ''; // مطلوب لبعض المتصفحات
+            // تم إزالة event.preventDefault() و event.returnValue = ''; لعدم إظهار الرسالة
         });
 
         // التقاط الاسم من الرابط
@@ -271,12 +267,10 @@
 
         // عرض الاسم
         const name = getNameFromURL();
-        
+
 
         // بدء الامتحان (تم جعلها دالة عامة ليمكن استدعاؤها من HTML)
         window.startExam = function() {
-            // لا حاجة لـ hideDisqualification هنا لأننا نتحقق من حالة الإقصاء عند التحميل
-            // ونمسح المحتوى بالكامل إذا كان مقصيًا.
             welcomeSection.style.display = "none";
             examSection.style.display = "block";
             showQuestion();
@@ -538,3 +532,4 @@ document.getElementById("username").textContent = `مرحبا ${name.replace(/\.
   </script>
 </body>
 </html>
+
